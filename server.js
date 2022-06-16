@@ -3,8 +3,8 @@ const app = express();
 const path = require('path')
 
 // Import Routes
-const apiRoutes = require('./routes/apiRoutes')
-const htmlRoutes = require('./routes/htmlRoutes')
+const apiRoutes = require('./Develop/routes/apiRoutes')
+const htmlRoutes = require('./Develop/routes/htmlRoutes')
 
 // Middleware for parsing JSON and URLencoded data
 app.use(express.json());
